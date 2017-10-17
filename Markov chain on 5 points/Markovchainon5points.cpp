@@ -58,14 +58,14 @@ int main()
 		for (int i = 0; i < len; i++)
 		{
 			if (i)
-				cout << ' ';
+				cout << '\t';
 			cout << stats[i];
 		}
-		cout << "\nProbabilities are:\n" << fixed << setprecision(3);
+		cout << "\nProbabilities are:\n" << setprecision(4);
 		for (int i = 0; i < len; i++)
 		{
 			if (i)
-				cout << ' ';
+				cout << '\t';
 			cout << (double)stats[i] / test;
 		}
 		cout << '\n' << endl;

@@ -3,9 +3,9 @@
 Markovchainon5points.cpp(19): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
 Markovchainon5points.cpp(23): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
   Generating code
-  308 of 314 functions (98.1%) were compiled, the rest were copied from previous compilation.
+  307 of 313 functions (98.1%) were compiled, the rest were copied from previous compilation.
     0 functions were new in current compilation
     0 functions had inline decision re-evaluated but remain unchanged
   Finished generating code
-  Markov chain on 5 points.vcxproj -> C:\OneDrive\projects\Console\Markov chain on 5 points\Release\Markov chain on 5 points.exe
-  Markov chain on 5 points.vcxproj -> C:\OneDrive\projects\Console\Markov chain on 5 points\Release\Markov chain on 5 points.pdb (Full PDB)
+  Markov chain on 5 points.vcxproj -> C:\OneDrive\projects\Console\Markov chain on array\Release\Markov chain on 5 points.exe
+  Markov chain on 5 points.vcxproj -> C:\OneDrive\projects\Console\Markov chain on array\Release\Markov chain on 5 points.pdb (Full PDB)

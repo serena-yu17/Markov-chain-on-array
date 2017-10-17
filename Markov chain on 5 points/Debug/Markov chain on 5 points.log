@@ -1,0 +1,5 @@
+﻿  Markovchainon5points.cpp
+c:\onedrive\projects\markov chain on 5 points\markov chain on 5 points\markovchainon5points.cpp(19): warning C4334: '<<': result of 32-bit shift implicitly converted to 64 bits (was 64-bit shift intended?)
+c:\onedrive\projects\markov chain on 5 points\markov chain on 5 points\markovchainon5points.cpp(23): warning C4244: 'argument': conversion from '__int64' to 'unsigned int', possible loss of data
+  Markov chain on 5 points.vcxproj -> C:\OneDrive\projects\Markov chain on 5 points\Debug\Markov chain on 5 points.exe
+  Markov chain on 5 points.vcxproj -> C:\OneDrive\projects\Markov chain on 5 points\Debug\Markov chain on 5 points.pdb (Partial PDB)

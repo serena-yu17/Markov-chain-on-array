@@ -8,7 +8,7 @@
 #include <iomanip>
 using namespace std;
 
-size_t* markov(int len, size_t tests)
+void markov(size_t* stats, int len, size_t tests)
 {
 	random_device rd;
 	mt19937 mtRand(rd());
@@ -17,7 +17,7 @@ size_t* markov(int len, size_t tests)
 	for (int i = 0; i < len; i++)
 		pow2[1 << i] = i;
 	long long arr = 1 << (len - 1);
-	size_t* stats = new size_t[len]();
+
 	for (size_t i = 0; i < tests; i++)
 	{
 		int pos = pow2[(arr & -arr)];
@@ -34,7 +34,6 @@ size_t* markov(int len, size_t tests)
 				arr >>= 1;
 		}
 	}
-	return stats;
 }
 
 int main()
@@ -53,7 +52,8 @@ int main()
 		cout << "Input number of tests: ";
 		size_t test;
 		cin >> test;
-		size_t* stats = markov(len, test);
+		size_t* stats = new size_t[len]();
+		markov(stats, len, test);
 		cout << "Occurances are:\n";
 		for (int i = 0; i < len; i++)
 		{
@@ -69,6 +69,7 @@ int main()
 			cout << (double)stats[i] / test;
 		}
 		cout << '\n' << endl;
+		delete[] stats;
 	}
 	return 0;
 }
